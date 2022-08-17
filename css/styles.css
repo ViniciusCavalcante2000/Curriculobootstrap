@@ -237,17 +237,15 @@ sup {
 }
 
 a {
-  color: #bd5d38;
-  text-decoration: underline;
+  color: #4538bd;
+  text-decoration: none;
+  ;
 }
 a:hover {
-  color: #974a2d;
+  font-weight: bolder;
 }
 
-a:link, a:visited {
-  text-decoration: none;
-  color: #6c757d;
-}
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -4053,6 +4051,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
+  bg
   justify-content: space-between;
 }
 .navbar-brand {
@@ -11439,6 +11438,3 @@ section.resume-section .resume-section-content {
   }
 }
 
-#certificacoes {
-  margin-bottom: 15px;
-}
